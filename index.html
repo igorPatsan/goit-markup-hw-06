@@ -60,7 +60,6 @@
               <input type="text" 
                 class="modal-input"
                 name="user-name"
-                placeholder="Иванов Иван Иванович" 
                 required
                 id="user-name"
               />
@@ -70,9 +69,8 @@
               <input type="tel" 
                 class="modal-input"
                 name="user-tel"
-                placeholder="Введите телефон*"
                 required
-                value="+380"
+                value=""
                 id="user-tel"
               />
             </div>
@@ -81,7 +79,6 @@
               <input type="email"
                 class="modal-input" 
                 name="user-mail"
-                placeholder="Введите почту"
                 id="user-mail"
               />
             </div>
@@ -91,10 +88,17 @@
                 name="user-text"
                 id="user-text"
                 class="modal-text"
+                placeholder="Введите текст"
+                value="user-text"
               ></textarea>
             </div>
-
+            <div class="contract-form">
+            <input type="checkbox" class="modal-checkbox" name="add" id="checkbox" />
+            <p class="contract-text">Соглашаюсь с рассылкой и принимаю <a class="contract-link" href=""> Условия договорa </a> </p>
+            </div>
+            <div class="form-submit">
               <button type="submit" class="submit-but">Отправить</button>
+            </div>
           </form>
         </div>
       </div>
