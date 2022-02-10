@@ -45,63 +45,7 @@
     <section class="hiro-s">
     <h1 class="hiro-title-s">Эффективные решения <br> для вашего бизнеса </h1>
     <button data-modal-open type="button" class="hiro-button-s"> Заказать услугу </button>
-      <div class="backdrop is-hidden" data-modal> 
-        <div class="modal">
-          <button class="close-modal" data-modal-close>
-              <svg width="11px" height="11px" class="icon-modal">
-                <use href=".//images/icons.svg#icon-close-black"></use>
-              </svg>
-          </button>
-          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-          <form class="modal-form">
-
-            <div class="form-fild">
-              <label for="user-name" class="modal-label">Имя</label>
-              <input type="text" 
-                class="modal-input"
-                name="user-name"
-                required
-                id="user-name"
-              />
-            </div>
-            <div class="form-fild">
-              <label for="user-tel" class="modal-label">Телефон</label>
-              <input type="tel" 
-                class="modal-input"
-                name="user-tel"
-                required
-                value=""
-                id="user-tel"
-              />
-            </div>
-            <div class="form-fild">
-              <label for="user-mail" class="modal-label">Почта</label>
-              <input type="email"
-                class="modal-input" 
-                name="user-mail"
-                id="user-mail"
-              />
-            </div>
-            <div class="form-fild">
-              <label for="user-text" class="modal-label">Комментарий</label>
-              <textarea 
-                name="user-text"
-                id="user-text"
-                class="modal-text"
-                placeholder="Введите текст"
-                value="user-text"
-              ></textarea>
-            </div>
-            <div class="contract-form">
-            <input type="checkbox" class="modal-checkbox" name="add" id="checkbox" />
-            <p class="contract-text">Соглашаюсь с рассылкой и принимаю <a class="contract-link" href=""> Условия договорa </a> </p>
-            </div>
-            <div class="form-submit">
-              <button type="submit" class="submit-but">Отправить</button>
-            </div>
-          </form>
-        </div>
-      </div>
+      
     </section>
     <!--Наши преимущества  -->
     <section class="advantages">
@@ -434,6 +378,44 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="close-modal" data-modal-close>
+        <svg width="11px" height="11px" class="icon-modal">
+          <use href=".//images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+      <form class="modal-form">
+  
+        <div class="form-fild">
+          <label for="user-name" class="modal-label">Имя</label>
+          <input type="text" class="modal-input" name="user-name" required id="user-name" />
+        </div>
+        <div class="form-fild">
+          <label for="user-tel" class="modal-label">Телефон</label>
+          <input type="tel" class="modal-input" name="user-tel" required value="" id="user-tel" />
+        </div>
+        <div class="form-fild">
+          <label for="user-mail" class="modal-label">Почта</label>
+          <input type="email" class="modal-input" name="user-mail" id="user-mail" />
+        </div>
+        <div class="form-fild">
+          <label for="user-text" class="modal-label">Комментарий</label>
+          <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введите текст"
+            value="user-text"></textarea>
+        </div>
+        <div class="contract-form">
+          <input type="checkbox" class="modal-checkbox" name="add" id="checkbox" />
+          <p class="contract-text">Соглашаюсь с рассылкой и принимаю <a class="contract-link" href=""> Условия договорa
+            </a> </p>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="submit-but">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
   <script src="./js/modal.js"></script>
 </body>
 </html>
