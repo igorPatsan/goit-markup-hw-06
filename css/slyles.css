@@ -714,7 +714,6 @@ a {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  m
 }
 
 .modal {
@@ -777,6 +776,32 @@ a {
   margin-bottom: 4px;
   outline: none;
 }
+.modal-input-wrap {
+  position: relative;
+}
+.modal-input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+.modal-icon {
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  transform: translateY(-50px);
+}
+/* .modal-input::placeholder {
+  color: brown;
+} */
+.modal-input:hover,
+.modal-input:focus {
+  border: 1px solid #2196f3;
+}
+
 .contract-form {
   display: flex;
   align-items: center;
@@ -797,23 +822,6 @@ a {
 .contract-link:hover,
 .contract-link:focus {
   color: var(--link-color);
-}
-
-.modal-input {
-  width: 100%;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  box-sizing: border-box;
-  border-radius: 4px;
-  height: 40px;
-  padding-left: 12px;
-  cursor: pointer;
-}
-/* .modal-input::placeholder {
-  color: brown;
-} */
-.modal-input:hover,
-.modal-input:focus {
-  border: 1px solid #2196f3;
 }
 
 .modal-text {
