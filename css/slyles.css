@@ -213,6 +213,8 @@ a {
   padding-left: 32px;
   padding-right: 32px;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*-----SDUDIO---advantages-- Приемущества----*/
@@ -698,6 +700,59 @@ a {
   height: 20px;
   fill: var(--main-white-color);
 }
+.footer-form-cont {
+  margin-left: 94px;
+}
+.footer-form-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-form-send {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+}
+.footer-button {
+  width: 200px;
+  height: 50px;
+  color: var(--main-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  padding: 10px 28px 10px 29px;
+  cursor: pointer;
+}
+.footersoc-send-icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: var(--main-white-color);
+}
 
 /*-------------MODAL------------*/
 .backdrop {
@@ -744,6 +799,9 @@ a {
 .close-modal:focus {
   background-color: var(--main-white-color);
   fill: var(--link-color);
+}
+.icon-modal {
+  margin-top: 6px;
 }
 
 .modal-title {
