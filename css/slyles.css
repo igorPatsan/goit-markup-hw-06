@@ -607,6 +607,9 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.foofer-first-div {
+  flex-grow: 1;
+}
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
