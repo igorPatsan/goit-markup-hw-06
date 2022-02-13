@@ -433,11 +433,17 @@
           <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введите текст"
             value="user-text"></textarea>
         </div>
+        
         <div class="contract-form">
-          <input type="checkbox" class="modal-checkbox" name="add" id="checkbox" />
-          <p class="contract-text">Соглашаюсь с рассылкой и принимаю <a class="contract-link" href=""> Условия договорa
-            </a> </p>
+          <input 
+            type="checkbox" 
+            class="modal-check visually-hidden" 
+            name="modal-check" 
+            id="modal-check" />
+          <label for="modal-check" class="modal-check-text">Соглашаюсь с рассылкой и принимаю <a class="contract-link" href=""> Условия договорa
+            </a> </label>
         </div>
+        
         <div class="form-submit">
           <button type="submit" class="submit-but">Отправить</button>
         </div>
