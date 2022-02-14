@@ -889,7 +889,6 @@ a {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
-  /* padding-left: 7px; */
 }
 .modal-check-text::before {
   content: '';
@@ -909,6 +908,7 @@ a {
 .contract-link {
   text-decoration: underline;
   color: #2196f3;
+  margin-left: 5px;
 }
 .contract-link:hover,
 .contract-link:focus {
