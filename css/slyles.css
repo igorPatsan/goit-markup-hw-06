@@ -848,6 +848,7 @@ a {
 .modal-input-wrap:hover,
 .modal-input-wrap:focus {
   fill: var(--link-color);
+
   /* border: 1px solid var(--link-color); */
   /* border: 1px solid #2196f3;
   box-sizing: border-box;
@@ -865,7 +866,8 @@ a {
 }
 .modal-input:hover,
 .modal-input:focus {
-  fill: var(--link-color);
+  background-color: yellow;
+  fill: #2196f3;
   border: 1px solid var(--link-color);
 }
 
@@ -873,7 +875,12 @@ a {
   position: absolute;
   left: 12px;
   top: 50%;
+
   transform: translateY(-50%);
+}
+
+.modal-icon:hover,
+.modal-icon:focus {
 }
 
 .contract-form {
